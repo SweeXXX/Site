@@ -1,3 +1,30 @@
 img {
     float: right;
 }
+.sector img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+body {
+    background-color: black; 
+    color: white; 
+    margin: auto;
+}
+
+body >* {
+    align-items: center;
+    margin: 0 15%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+table {
+    border-collapse:separate;
+    border: 1px solid grey;
+}
+th, td {
+    border: 1px solid grey;
+ }
